@@ -3,6 +3,21 @@
 	width: 10em;
 }
 
+#main-portfolio img{
+	height: 100%;
+	width: 100%;
+}
+
+#main-portfolio .row{
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.center{
+	display:table-cell;
+	vertical-align: middle;
+}
 #main-panel{
 	border-radius: 25px;
 }
@@ -39,7 +54,7 @@
 	width: 100%;
 	height: 50px;
 
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 
 	text-align: center;
@@ -49,6 +64,7 @@
 	border-top: outset 5px #cccccc;
 
 	padding-top: 10px;
+
 }
 
 #footer .footer-copyright .container-fluid p{
@@ -56,7 +72,7 @@
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 700px){
 	[class*="col-"]{
 		width: 100%;
 	}
