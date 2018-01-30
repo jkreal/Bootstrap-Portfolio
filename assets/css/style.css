@@ -3,23 +3,6 @@
 	width: 10em;
 }
 
-/* #main-content{
-	margin-left: -10em;
-	margin-right: 20em;
-	padding: 2em;
-	padding-top: 0px;
-	border: 1px solid grey;
-	border-radius: 25px;
-	background-color: white;
-} */
-
-/* #main-content{
-	margin-left: -10em;
-	margin-right: 20em;
-	margin-top: 3em;
-	border-radius: 25px;
-} */
-
 #main-panel{
 	border-radius: 25px;
 }
@@ -81,4 +64,17 @@
 	#footer{
 		position: fixed;
 	}
+}
+
+#message{
+	height: 8em;
+	width: 25em;
+}
+
+.contact{
+	margin-top: 20px;
+}
+
+.textboxes{
+	width: 25em;
 }
